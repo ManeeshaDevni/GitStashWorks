@@ -20,6 +20,11 @@ public void setcontent(String content)
         this.content = content;
 }
 
+public void setId(int id)
+{
+        this.id = id;
+}
+
 public String getName()
 {
 	return name;
@@ -33,5 +38,10 @@ public String getContent()
 public String getExtension()
 {
         return extension;
+}
+
+public String getId()
+{
+        return id;
 }
 }
